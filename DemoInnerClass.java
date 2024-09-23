@@ -23,7 +23,8 @@ public class DemoInnerClass {
         A a = new A();
         a.show();
 
-        A.B b = new A.B(); //as class B is inside class A, it is accessed by A.B and to create a object of inner class B, you need object of A class 
+        A.B b = new A.B(); 
+        //as class B is inside class A, it is accessed by A.B and to create a object of inner class B, you need object of A class 
         // so a.new B() here we create inner class B as static so we can directly call it by A.B()
         b.config();
 
