@@ -33,6 +33,7 @@ public class DemoAbstract {
 
         Car a = new Audi();  //creating object of the subclass which is concrete class
                                 //here we have created a reference of the parent class which refers to the child class object
+                                //we can also use Interface here and use a interface reference to create the object
         a.drive();
         a.playMusic();
     }

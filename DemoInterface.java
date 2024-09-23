@@ -51,6 +51,7 @@ public class DemoInterface {
         //we have to create a object reference of type X to implement class X
         X obj1 = new B();
         obj1.run();
+
     }
     
 }
