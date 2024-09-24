@@ -1,3 +1,6 @@
+//Use Comparable when you want to define a default sorting order for your objects.
+//Use Comparator when you need to define multiple sorting orders or when you cannot modify the class to implement Comparable.
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -24,12 +27,7 @@ class Student implements Comparable<Student> { //Integer class implements compar
 
     @Override
     public int compareTo(Student that) { //overriding comapareTo method from Comparable interface
-        if(this.age > that.age)
-            return 1;
-        else if(this.age < that.age)
-            return -1;
-        else
-            return 0;
+        return this.age - that.age;
     }
 }
 
@@ -75,8 +73,8 @@ public class DemoCollectionsSort {
         //     return o1.age - o2.age;                     // in short
         // };
 
-        //Collections.sort(students, com1); //this uses the overriden comparator com1 object method
-        Collections.sort(students);     //this uses the compareTo method from Comparable Interface
+        //Collections.sort(students, com1); //this uses the overriden comparator com1 object method in main
+        Collections.sort(students);     //this uses the compareTo method from Comparable Interface implemented in Student class
         for(Student s : students)
             System.out.println(s);
     }
