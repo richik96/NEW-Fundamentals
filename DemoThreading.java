@@ -40,7 +40,6 @@ public class DemoThreading {
      
         Runnable obj1 = new Runnable() {   //as A implements Runnable we can take a object of type Runnable
             //inner class/ annonymous class
-            
             @Override
             public void run() {
                 for (int i = 0; i < 5; i++) {
@@ -55,8 +54,7 @@ public class DemoThreading {
         };
         
         //using lambda
-        Runnable obj2 = () ->
-        {
+        Runnable obj2 = () -> {
             for (int i = 0; i < 5; i++) {
                 System.out.println("World");
                 try {
