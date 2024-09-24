@@ -2,8 +2,8 @@
 class Mobile {
     
     String brand; //instance variable
-    static String model;
-    int price;
+    static String model; //
+    int price; //instance variable
 
     public Mobile() {
         //this is a constructor
@@ -25,7 +25,7 @@ class Mobile {
         System.out.println("In static block");
     }
     
-    public void show() {
+    public void show() throws Exception{
         System.out.println("Brand: " + brand + " model: " +model + " price: " +price);
     }
 
@@ -46,7 +46,7 @@ public class Demo2 {
     //without object the JVM will not load the class. 
     //but this can be bypassed by just calling class method
 
-        //Class.forName("Mobile"); //o/p= In static block
+        Class.forName("Mobile"); //o/p= In static block
 
 
         Mobile obj1 = new Mobile();
@@ -69,7 +69,14 @@ public class Demo2 {
         obj2.show();
         */
 
-        //Mobile.show(); //non static methods cannot be called by class
+        try {
+            //Mobile.show();
+        } catch (Exception e) {
+            // TODO: handle exception
+            Mobile.show1(obj1);
+        }
+            //non static methods cannot be called by class
+        
         Mobile.show1(obj1);
     }
 }
