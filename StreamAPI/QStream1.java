@@ -59,7 +59,7 @@ public class QStream1 {
         Map<String, Double> avgSalary = employees.stream().collect(Collectors.groupingBy(n -> ((Employee) n)
                                                             .getDepartment(), Collectors.averagingInt(n -> ((Employee) n).getSalary())));
 
-        avgSalary.forEach((dept, avgSal) -> System.out.println(avgSal));
+        avgSalary.forEach((dept, avgSal) -> System.out.println(dept + ": "+avgSal));
     }
     
 }
