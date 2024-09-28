@@ -10,5 +10,9 @@ public class QStreamNwith1 {
         List<Integer> arr = Arrays.asList(10,15,8,49,20,98,32);
 
         arr.stream().map(s -> s+"").filter(s-> s.startsWith("1")).forEach(n -> System.out.println(n));
+
+        Long a= arr.stream().map(s -> s+"").filter(s-> s.startsWith("1")).count();
+
+        System.out.println("Total count : "+a);
     }
 }
