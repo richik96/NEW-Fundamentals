@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 
 
-class Student implements Comparable<Student> { //Integer class implements comparable interface (functional interface)
+class Student implements Comparable<Student> { //Integer class implements comparable interface 
                                                 //comparable has a comareTo() method
     int age;
     String name;
@@ -34,7 +34,7 @@ class Student implements Comparable<Student> { //Integer class implements compar
 public class DemoCollectionsSort {
     
     public static void main(String[] args) {
-        Comparator<Integer> com = new Comparator<Integer>() {
+        Comparator<Integer> com = new Comparator<Integer>() {                   //annonymous class
             @Override
             public int compare(Integer o1, Integer o2) {
                 return o1 - o2; //ascending order
@@ -46,7 +46,7 @@ public class DemoCollectionsSort {
         };
 
         //Lambda expression
-        //Comparator<Integer> com = (o1, o2) -> o1 - o2;
+        //Comparator<Integer> com = (o1, o2) -> o1 - o2;     //(functional interface)-> comparator<>
 
         List<Integer> nums = new ArrayList<>();
         nums.add(10);
