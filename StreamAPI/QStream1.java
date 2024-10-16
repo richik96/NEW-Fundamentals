@@ -63,9 +63,13 @@ public class QStream1 {
         Map<String, Integer> forChennai = employees.stream().filter(n -> n.getDepartment().equals("HR"))
                                                             .collect(Collectors.toMap(Employee::getDepartment, Employee::getSalary));
 
-        avgSalary.forEach((dept, avgSal) -> System.out.println(dept + ": "+avgSal));
+        Map<String, Long> totalCount = employees.stream().collect(Collectors.groupingBy(Employee:: getDepartment, Collectors.counting()));
 
-        forChennai.forEach((dept, sal) -> System.out.println(dept + ": "+ sal));
+        totalCount.forEach((dept, sal) -> System.out.println(dept + " : " + sal));
+
+        avgSalary.forEach((dept, avgSal) -> System.out.println(dept + ": "+avgSal));
+    
+        //forChennai.forEach((dept, sal) -> System.out.println(dept + ": "+ sal));
     }
     
 }
