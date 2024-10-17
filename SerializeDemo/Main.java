@@ -13,8 +13,8 @@ public class Main {
         Employee emp = new Employee();
         emp.setId(1);
         emp.setName("John");
+        
         FileOutputStream fileOut = new FileOutputStream("C:\\Users\\drich\\OneDrive\\Desktop\\Codes\\JAVA\\fundamentals\\Outputs\\Demo_serialize_1.ser");
-
         ObjectOutputStream out = new ObjectOutputStream(fileOut);
         out.writeObject(emp);
         out.close();

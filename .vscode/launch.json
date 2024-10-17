@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QstreamDivof3",
+            "request": "launch",
+            "mainClass": "QstreamDivof3",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "BookAnalyze",
+            "request": "launch",
+            "mainClass": "BookAnalyze",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "SerializeDemo.Main",

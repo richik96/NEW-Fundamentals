@@ -9,6 +9,6 @@ public class QstreamDivof3 {
         
         int[] arr = {2, 4, 6, 8, 2, 10, 4, 12, 6};
 
-        Arrays.stream(arr).map(x -> (x%3 == 0)? x*x : x).forEach(i -> System.out.println(i));
+        Arrays.stream(arr).peek(n -> System.out.println("before " +n)).map(x -> (x%3 == 0)? x*x : x).forEach(i -> System.out.println("After " +i));
     }
 }
