@@ -6,13 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "ReverseArray",
-            "request": "launch",
-            "mainClass": "ReverseArray",
-            "projectName": "fundamentals_33fa6242"
-        },
-        {
-            "type": "java",
             "name": "QstreamDivof3",
             "request": "launch",
             "mainClass": "QstreamDivof3",
