@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SlidingWindow",
+            "request": "launch",
+            "mainClass": "SlidingWindow",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
             "name": "ReverseArray",
             "request": "launch",
             "mainClass": "ReverseArray",

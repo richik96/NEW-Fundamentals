@@ -31,7 +31,7 @@ public class TwoSum {
             if (map.containsKey(complement)) {      //checks the hashmap for 14 key
                 return new int[]{map.get(complement), i};
             }
-            map.put(a[i], i);                       //adds the last key to the map
+            map.put(a[i], i);                       //adds the last key to the map paired with its index
         }
         throw new IllegalArgumentException("no solution");
     }

@@ -3,37 +3,27 @@
  * Human
  */
 class Human {
-    
     private int age;           // private access modifier - mode of encapsulation
     private String name; //private variables can only be accessed within the same class
-
     //one of the best practice is to make instance variables private
     //and provide public getter and setter methods to access and modify the values of the instance variables
-
     public Human(int age, String name) { //parameterized constructor
         this.age = age;
         this.name = name;
         System.out.println("Inside parameterized constructor");
     }
-
     public Human() {  //default constructor
         this.age = 12;
         this.name = "Vik123";
         System.out.println("Inside default constructor");
     }
-
-    
-    
-    
     public int getAge() { //getters
         return age;
     }
-    
     //accessed within the same class
     public String getName() {
         return name;
     }
-
     public void setAge(int age) { //setters
         this.age = age;
     }
