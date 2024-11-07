@@ -3,10 +3,10 @@
  * Human
  */
 class Human {
-    private int age;           // private access modifier - mode of encapsulation
-    private String name; //private variables can only be accessed within the same class
-    //one of the best practice is to make instance variables private
-    //and provide public getter and setter methods to access and modify the values of the instance variables
+    private int age;                // private access modifier - mode of encapsulation
+    private String name;            //private variables can only be accessed within the same class
+                                    //one of the best practice is to make instance variables private
+                                    //and provide public getter and setter methods to access and modify the values of the instance variables
     public Human(int age, String name) { //parameterized constructor
         this.age = age;
         this.name = name;
@@ -52,7 +52,7 @@ public class Demo3 {
         h.setAge(20);
         h.setName("John");
 
-
+        System.out.println("with setter");
         System.out.println("Name: " +h.getName() + " Age: " + h.getAge());
         //System.out.println();
         

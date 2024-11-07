@@ -1,4 +1,5 @@
-import tools.AdvCalc;
+package inheritance;
+import inheritance.tools.AdvCalc;
 
 public class DemoInheritance {
     public static void main(String[] args) {

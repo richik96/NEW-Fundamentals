@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InnerPrintWithThreads",
+            "request": "launch",
+            "mainClass": "threading.InnerPrintWithThreads",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoThreading",
+            "request": "launch",
+            "mainClass": "DemoThreading",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoStaticKW",
+            "request": "launch",
+            "mainClass": "DemoStaticKW",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoAdvInterface",
+            "request": "launch",
+            "mainClass": "DemoAdvInterface",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoAbstractInnerClass",
+            "request": "launch",
+            "mainClass": "DemoAbstractInnerClass",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
             "name": "SlidingWindow",
             "request": "launch",
             "mainClass": "SlidingWindow",
