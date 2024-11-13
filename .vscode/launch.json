@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrintRunner1",
+            "request": "launch",
+            "mainClass": "threading.PrintRunner1",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
             "name": "InnerPrintWithThreads",
             "request": "launch",
             "mainClass": "threading.InnerPrintWithThreads",

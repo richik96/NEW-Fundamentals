@@ -2,15 +2,16 @@ package threading;
 
 public class PrintWithThreads implements Runnable{
 
-    int numToPrint;
+    int numToPrint = 1;
     @Override
     public void run() {
-        // TODO Auto-generated method stub
+
         System.out.println(Thread.currentThread().getName()+ " is printing i=" +numToPrint);
+        numToPrint++;
     }
-    public PrintWithThreads(int i) {
-        this.numToPrint = i;
-    }
+    // public PrintWithThreads(int i) {
+    //     this.numToPrint = i;
+    // }
 
 }
 

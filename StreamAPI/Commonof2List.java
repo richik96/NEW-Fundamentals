@@ -1,3 +1,4 @@
+package StreamAPI;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -13,7 +14,7 @@ public class Commonof2List {
         //filter(predicate) --> to filter a stream
         //collect() --> to collect the stream into a list
         
-        List<Integer> common = arr1.stream().filter(n -> arr2.contains(n)).collect(Collectors.toList());
+        List<Integer> common = arr1.stream().filter(arr2::contains).collect(Collectors.toList());
 
         System.out.println(common);
     }
