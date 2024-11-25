@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QStream1",
+            "request": "launch",
+            "mainClass": "StreamAPI.QStream1",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
             "name": "PrintRunner1",
             "request": "launch",
             "mainClass": "threading.PrintRunner1",
