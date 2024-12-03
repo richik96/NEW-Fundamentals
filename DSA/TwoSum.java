@@ -1,3 +1,5 @@
+package DSA;
+
 import java.util.HashMap;
 
 public class TwoSum {
@@ -8,11 +10,11 @@ public class TwoSum {
 
         //int[] result = twoSum(arr, target);
         int[] result = mapTwoSum(arr, target);
-        System.out.println("The indexs are : " +result[0] + "," +result[1]);
+        System.out.println("The indexes are : " +result[0] + "," +result[1]);
     }
 
     static int[] twoSum(int[]a, int target) {
-
+//
         int n = a.length;
         for( int i =0; i<n; i++) {
             for(int j=i+1; j<n; j++) {
@@ -23,7 +25,6 @@ public class TwoSum {
         }
         throw new IllegalArgumentException("no solution");
     }
-
     static int[] mapTwoSum(int[]a, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();        //key = actual value, value = index of the value
         for (int i = 0; i < a.length; i++) {

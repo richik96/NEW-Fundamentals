@@ -1,4 +1,4 @@
-
+package DSA;
 // given an array of integers, find the maximum sum of k consecutive elements
 // input: [1, 2, 3, 4, 5, 6, 7, 8, 9], k = 3
 // output: 24 = 7+8+9
