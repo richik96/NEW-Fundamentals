@@ -1,0 +1,329 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "QStream1",
+            "request": "launch",
+            "mainClass": "StreamAPI.QStream1",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "PrintRunner1",
+            "request": "launch",
+            "mainClass": "threading.PrintRunner1",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "InnerPrintWithThreads",
+            "request": "launch",
+            "mainClass": "threading.InnerPrintWithThreads",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoThreading",
+            "request": "launch",
+            "mainClass": "DemoThreading",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoStaticKW",
+            "request": "launch",
+            "mainClass": "DemoStaticKW",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoAdvInterface",
+            "request": "launch",
+            "mainClass": "DemoAdvInterface",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoAbstractInnerClass",
+            "request": "launch",
+            "mainClass": "DemoAbstractInnerClass",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "SlidingWindow",
+            "request": "launch",
+            "mainClass": "SlidingWindow",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QstreamDivof3",
+            "request": "launch",
+            "mainClass": "QstreamDivof3",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "BookAnalyze",
+            "request": "launch",
+            "mainClass": "BookAnalyze",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "SerializeDemo.Main",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoInterface",
+            "request": "launch",
+            "mainClass": "DemoInterface",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "org.telusko.App",
+            "projectName": "demoHibernate"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Commonof2List",
+            "request": "launch",
+            "mainClass": "Commonof2List",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Demo2",
+            "request": "launch",
+            "mainClass": "Demo2",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Demo3",
+            "request": "launch",
+            "mainClass": "Demo3",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Demo4",
+            "request": "launch",
+            "mainClass": "Demo4",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoAbstract",
+            "request": "launch",
+            "mainClass": "DemoAbstract",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoAdvENUM",
+            "request": "launch",
+            "mainClass": "DemoAdvENUM",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoAdvThreading",
+            "request": "launch",
+            "mainClass": "DemoAdvThreading",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoCollectionInterface",
+            "request": "launch",
+            "mainClass": "DemoCollectionInterface",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoCollectionsSort",
+            "request": "launch",
+            "mainClass": "DemoCollectionsSort",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoCustomException",
+            "request": "launch",
+            "mainClass": "DemoCustomException",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoENUM",
+            "request": "launch",
+            "mainClass": "DemoENUM",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoErrorException",
+            "request": "launch",
+            "mainClass": "DemoErrorException",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoInheritance",
+            "request": "launch",
+            "mainClass": "DemoInheritance",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoLegacyInput",
+            "request": "launch",
+            "mainClass": "DemoLegacyInput",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoMap",
+            "request": "launch",
+            "mainClass": "DemoMap",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "DemoStreamAPI",
+            "request": "launch",
+            "mainClass": "DemoStreamAPI",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "JDBC.DemoProject.src.App",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Test1",
+            "request": "launch",
+            "mainClass": "JUnit.Test1",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStream1",
+            "request": "launch",
+            "mainClass": "QStream1",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStream1stElement",
+            "request": "launch",
+            "mainClass": "QStream1stElement",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStreamDuplicate",
+            "request": "launch",
+            "mainClass": "QStreamDuplicate",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStreamElementCount",
+            "request": "launch",
+            "mainClass": "QStreamElementCount",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStreamEven",
+            "request": "launch",
+            "mainClass": "QStreamEven",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStreamMaxValue",
+            "request": "launch",
+            "mainClass": "QStreamMaxValue",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStreamNonRepeatChar",
+            "request": "launch",
+            "mainClass": "QStreamNonRepeatChar",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStreamNwith1",
+            "request": "launch",
+            "mainClass": "QStreamNwith1",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "QStreamReverseSort",
+            "request": "launch",
+            "mainClass": "QStreamReverseSort",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "RecursiveBinary",
+            "request": "launch",
+            "mainClass": "RecursiveBinary",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "fundamentals_33fa6242"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.telusko.learning.Main",
+            "projectName": "junit01"
+        }
+    ]
+}

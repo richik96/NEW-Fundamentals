@@ -1,3 +1,4 @@
+package StreamAPI;
 
 import java.util.Arrays;
 import java.util.List;
@@ -8,7 +9,7 @@ public class QStreamEven {
         
         List<Integer> arr = Arrays.asList(10,15,8,49,20,98,32);
 
-        arr.stream().filter(n -> n%2 == 0).forEach(n -> System.out.println(n));
+        arr.stream().filter(n -> n%2 == 0).forEach(System.out::println);
 
     }
 }

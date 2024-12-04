@@ -1,4 +1,4 @@
-package tools;
+package inheritance.tools;
 
 public class AdvCalc extends Calc{
 

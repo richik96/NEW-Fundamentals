@@ -23,8 +23,8 @@ public class DemoAdvInterface {
         */
 
         //using **lambda expression**
-        A obj1 = (i) -> System.out.println("In Show A " + i);  
-        obj1.show(6);
+        A obj5 = (i) -> System.out.println("In Show A " + i);  
+        obj5.show(6);
 
         //lambda expression doesn't create a inner class file after compilation
     }

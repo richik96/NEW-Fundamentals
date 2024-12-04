@@ -23,6 +23,8 @@ public class DemoAbstractInnerClass {
                 System.out.println("In config A");
             }
         };
+
+
         a.show();
         a.config();
 

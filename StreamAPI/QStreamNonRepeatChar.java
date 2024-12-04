@@ -9,7 +9,9 @@ public class QStreamNonRepeatChar {
 
     public static void main(String[] args) {
         String str = "Hello World";
-        // str.chars().mapToObj(n -> (char) n).distinct().forEach(n -> System.out.print(n));
+
+        //non repeating characters
+        str.chars().mapToObj(n -> (char) n).distinct().forEach(n -> System.out.println(n));
 
         Character result = str.chars()//Stream of string
                                     .mapToObj(s-> Character.toLowerCase(Character.valueOf((char)s))) //First convert to character object then lowercase

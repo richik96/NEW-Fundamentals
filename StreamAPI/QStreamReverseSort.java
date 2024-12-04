@@ -1,8 +1,9 @@
+package StreamAPI;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collector;
+
 import java.util.stream.Collectors;
 
 
@@ -15,6 +16,8 @@ public class QStreamReverseSort {
 
         List<Integer>result= arr.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 
-        System.out.println(result);
+        System.out.println("Reverse Sorted List without comparator :");
+        arr.stream().sorted((a,b)->b-a).forEach(System.out::println);
+        System.out.println("With comparator" +result);
     }
 }

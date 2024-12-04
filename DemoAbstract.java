@@ -2,7 +2,7 @@
 //abstact class cannot be instantiated or we cannot create a object for a abstract class
 
 
-abstract class Car {                //abstract class can have normal class or abstract class
+abstract class Car {                //abstract class can have normal method or abstract method
                                     //it is compulsory to define all the abstract methods in the child class   
 
     public abstract void drive();  //declaring a method --> have to use abstract keyword 
