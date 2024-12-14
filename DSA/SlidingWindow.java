@@ -2,16 +2,12 @@ package DSA;
 // given an array of integers, find the maximum sum of k consecutive elements
 // input: [1, 2, 3, 4, 5, 6, 7, 8, 9], k = 3
 // output: 24 = 7+8+9
-
-
-
-
+//3 sum
 public class SlidingWindow {
 
     public static void main(String[] args) {
         int[] arr = {9, 12, 32, 3, 8, 10};
-        int k = 3;
-
+        int k = 3;      //k = number of consecutive elements for which we need the max sum
         maxSum(arr, k);
     }
 
