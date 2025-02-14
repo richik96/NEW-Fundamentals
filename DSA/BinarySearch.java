@@ -3,8 +3,8 @@ package DSA;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        int key = 5;
-        int result = binarySearch(arr, key);
+        int target = 5;
+        int result = binarySearch(arr, target);
         if (result == -1) {
             System.out.println("Element not found");
         } else {
@@ -12,20 +12,20 @@ public class BinarySearch {
         }
     }
 
-    static int binarySearch(int[] arr, int key) {
-        int low = 0;
-        int high = arr.length - 1;
+    static int binarySearch(int[] arr, int target) {
+        int start = 0;
+        int end = arr.length - 1;
         int steps = 0;
-        while (low <= high) {
+        while (start <= end) {
             steps++;
-            int mid = (low + high) / 2;
-            if (arr[mid] == key) {
+            int mid = (start + end) / 2;
+            if (arr[mid] == target) {
                 System.out.println("Steps taken for binary : " +steps);
                 return mid;
-            } else if (arr[mid] < key) {
-                low = mid + 1;
+            } else if (arr[mid] < target) {
+                start = mid + 1;
             } else {
-                high = mid - 1;
+                end = mid - 1;
             }
         }
         System.out.println("Steps taken for binary : " +steps);

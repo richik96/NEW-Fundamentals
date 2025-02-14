@@ -16,10 +16,14 @@ public class QStreamDuplicate {
         //fetching only duplicates
         Set<Integer> set = new HashSet<>();
         System.out.println("duplicates :");
-        arr.stream().filter(n -> !set.add(n)).forEach(System.out::println);
+        arr.stream()
+                .filter(n -> !set.add(n))
+                .forEach(System.out::println);
 
         List<String> str = Arrays.asList("apple", "banana", "apple", "orange", "banana", "apple");
         Set<String> set1 = new HashSet<>();
-        str.stream().filter(n -> set1.add(n)).forEach(System.out::println);
+        str.stream()
+                .filter(set1::add)
+                .forEach(System.out::println);
     }
 }

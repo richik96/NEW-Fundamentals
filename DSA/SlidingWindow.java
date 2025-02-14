@@ -13,18 +13,14 @@ public class SlidingWindow {
 
     static void maxSum(int[] a, int k) {
         int currSum = a[0];
-
         if(a.length < k) {
             System.out.println("Invalid input");
             return;
         }
-
         for(int i=1; i<k;i++){
             currSum += a[i];
         }
-
         int maxSum = currSum;
-
         for(int i=k; i<a.length; i++) {
             currSum = currSum + a[i] - a[i-k];
             maxSum = Math.max(maxSum, currSum);

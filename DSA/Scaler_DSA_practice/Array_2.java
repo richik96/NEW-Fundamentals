@@ -18,6 +18,7 @@ public class Array_2 {
 //        }
 //        System.out.println(max_sum);
         //optimization
+        //Kadane's Algo
         int sum = 0;
         for (int i = 0; i < n; i++) {
             sum = sum + arr[i];
